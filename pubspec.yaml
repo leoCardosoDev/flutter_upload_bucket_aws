@@ -31,6 +31,9 @@ dependencies:
   aws_s3_upload: ^1.1.2
   image_picker: ^0.6.1
   image_cropper: ^1.0.2
+  permission_handler: ^5.1.0+2
+  uuid: ^2.0.4
+  path: ^1.6.4
 
 dev_dependencies:
   flutter_test:

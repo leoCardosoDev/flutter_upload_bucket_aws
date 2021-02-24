@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:s3_aws_upload/exemplo_1/s3.dart';
+
+import 'exemplo_2/upload.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: MyHomeS3(),
+      home: ImagePickerWidget(),
     );
   }
 }
